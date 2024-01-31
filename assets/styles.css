@@ -1,0 +1,243 @@
+body {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .header .name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+
+}
+
+nav .header .header-title {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+nav .header .header-text {
+    color: #fff;
+    font-size: 16px;
+}
+
+.manufacturer {
+    padding-top: 50px;
+}
+
+.manufacturer img {
+    width: 160px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.offers {
+    margin-bottom: 50px;
+}
+
+.manufacturer h1 {
+    text-align: center;
+    color: #333;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.manufacturer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 20px 0;
+    width: 50%;
+}
+
+.manufacturer ul li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.manufacturer .list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+footer .foot-address {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer p {
+    font-size: 15px;
+}
+
+footer .foot-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+footer .foot-links a {
+    color: #fff;
+    font-size: 15px;
+}
+
+@media only screen and (min-width : 768px) and (max-width: 1199px) {
+
+    nav .header .name {
+        font-size: 18px;
+    }
+
+    nav .header .header-title {
+        font-size: 20px;
+    }
+
+    nav .header .header-text {
+        font-size: 16px;
+    }
+
+    .manufacturer {
+        padding-top: 40px;
+    }
+
+    .offers {
+        margin-bottom: 40px;
+    }
+
+    .manufacturer h1 {
+        font-size: 26px;
+    }
+
+    .manufacturer ul {
+        margin: 20px 0;
+    }
+
+    .manufacturer ul li {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer .foot-links a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width : 320px) and (max-width: 767px) {
+
+    nav .header .name {
+        font-size: 16px;
+    }
+
+    nav .header .header-title {
+        font-size: 19px;
+    }
+
+    nav .header .header-text {
+        font-size: 11px;
+    }
+
+    nav .contact {
+        font-size: 14px;
+    }
+
+    .manufacturer {
+        padding-top: 40px;
+    }
+
+    .offers {
+        margin-bottom: 40px;
+    }
+
+    .manufacturer h1 {
+        font-size: 23px;
+    }
+
+    .manufacturer ul {
+        margin: 20px 0;
+        width: 100%;
+    }
+
+    .manufacturer ul li {
+        font-size: 15px;
+    }
+
+    .manufacturer img {
+        width: 130px;
+        height: 120px;
+    }
+
+    .manufacturer .list {
+        display: block;
+    }
+
+    footer .foot-address {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+
+    footer .heading {
+        margin-bottom: 0px;
+    }
+
+    footer .foot-links {
+        gap: 20px;
+    }
+
+    footer .foot-links a {
+        font-size: 13px;
+    }
+}
